@@ -1,5 +1,15 @@
 # CHANGELOG
 
+### 1.12.0
+
+* Added npm packages to support babel/es6
+* Added support for .babelrc configs.
+* Separated all npm commands into properties called "run" to be copy paste friendly through the command line.
+* Added 'npm uninstall' commands as well.
+* Updated "styling" of failed tests in the commands line so they're more readable.
+* Checks for version eslint-config-gfp@4.0.0
+* Checks for only one .babelrc file
+
 ### 1.11.1
 
 * Fixed missing line break.
