@@ -13,6 +13,7 @@ let options;
 
 program
     .version(require('../package.json').version)
+    .option('-f, --fix', '')
     .option('-v, --verbose', '')
     .option('-s, --silent', '')
     .option(
@@ -23,7 +24,8 @@ program
 
 options = {
     verbose: program.verbose,
-    silent: program.silent
+    silent: program.silent,
+    fix: program.fix
 };
 
 if (options.silent) {
